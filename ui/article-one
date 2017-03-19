@@ -1,5 +1,19 @@
 <html>
+    <head>
+    <title>
+        Article 1
+    </title>
+    </head>
 <body>
-This is article one
+<div>
+    <a href="/">Home</a>
+    <ht></ht>
+</div>
+<div>
+    The date is 20th march, 2017
+</div>
+<div>
+    <p>hello. good job.</p>
+</div>
 </body>
 </html>
