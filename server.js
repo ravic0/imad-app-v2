@@ -13,6 +13,14 @@ app.get('/article-one', funtion (req, res) {
     res.send('Article one created');
 });
 
+app.get('/article-two', funtion (req, res) {
+    res.send('Article two created');
+});
+
+app.get('/article-three', funtion (req, res) {
+    res.send('Article three created');
+});
+
 
 )
 
