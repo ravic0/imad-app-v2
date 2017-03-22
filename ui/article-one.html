@@ -14,6 +14,17 @@
 </div>
 <div>
     <p>hello. good job.</p>
+    This Button <button id="click">Click me</button> has been clicked <span id='click2'>0</span> times;
+    <script type="text/javascript">
+    var count=0;
+        var but=document.getElementById("click");
+        but.onclick=function() {
+            count=count+1;
+            var span=document.getElementById("click2");
+            click2.innerHTML=count.toString();
+        }
+        
+    </script>
 </div>
 </body>
 </html>
