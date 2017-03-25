@@ -17,6 +17,13 @@ app.get('/article-two', function(req,res) {
     res.send('Article two created');
 });
 
+var count=0;
+app.get('/count', function(req,res) {
+count=count+1;
+res.send(count.toString());
+});
+
+
 app.get('/article-three', function(req,res) {
     res.send('Article three created');
 });
